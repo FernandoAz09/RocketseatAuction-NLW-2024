@@ -6,9 +6,7 @@ public class Auction
     public string Name { get; set; } = string.Empty;
     public DateTime Starts { get; set; }
     public DateTime Ends { get; set; }
-
     public List<Item> Items { get; set; } = [];
-        
 }
 //get - permitindo uma classe recuperar o valor dessa propriedade
 //set - permitindo uma classe alterar o valor dessa propriedade
